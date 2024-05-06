@@ -1,6 +1,6 @@
 .bg-image {
   position: relative; /* Ensure the container is positioned relative */
-  background-image: url("/Users/macbookpro/UnionCorp_WebApp/client/src/Assets/bg_img_1.jpeg");
+  background-image: url("https://preview.colorlib.com/theme/unioncorp/images/bg_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
