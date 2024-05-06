@@ -1,0 +1,29 @@
+.ftco-gallery .gallery-wrap {
+  width: 100%;
+  height: 1340px;
+  display: block;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 0px;
+}
+
+.ftco-section {
+  padding: 8em 0;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.ftco-no-pb {
+  padding-bottom: 0 !important;
+}
+
+/* .bg-image {
+  background-image: url("https://preview.colorlib.com/theme/unioncorp/images/gallery-1.jpg");
+}
+
+.case-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+} */

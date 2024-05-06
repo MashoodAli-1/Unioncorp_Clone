@@ -1,0 +1,18 @@
+.icon_width-2{
+    width: 20px;
+    background-color: #e3ecfe;
+    padding: 10px;
+    border-radius: 15%;
+    color: rgb(79, 134, 249);
+  }
+
+.text_small{
+    font-size: small;
+}
+
+.blog_img_main{
+    background-image: url("https://preview.colorlib.com/theme/unioncorp/images/image_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

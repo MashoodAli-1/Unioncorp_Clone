@@ -1,0 +1,45 @@
+.top-wrap {
+  background: #052f48 !important;
+}
+
+.brands-logo {
+  background-color: rgb(79, 134, 249);
+  color: #fff;
+}
+
+.navbar-bg {
+  background-color: white;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.text-color {
+  color: initial;
+}
+
+.text-font{
+
+}
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .navbar-bg {
+    background-color: rgb(5, 44, 67);
+    color: #fff;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .text-color {
+    color: #fff;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 992px) {
+  .text-font {
+     font-size: small;
+     color: #fff;
+  }
+}

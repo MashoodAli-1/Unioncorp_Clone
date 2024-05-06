@@ -1,0 +1,22 @@
+.color {
+  color: #8c8c8c;
+}
+
+.bg-image1 {
+  background-image: url("https://preview.colorlib.com/theme/unioncorp/images/bg_4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about-img1 {
+
+}
+
+.ftco-section {
+  padding: 8em 0;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+}
+
