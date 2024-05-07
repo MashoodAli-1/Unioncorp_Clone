@@ -20,3 +20,48 @@
   overflow-x: hidden;
 }
 
+.card_style{
+  color: #4f86f9;
+  background:#dce6fa;
+  font-size: 30px;
+  padding:18px;
+  border-radius:50%;
+  font-weight: lighter;
+}
+
+
+.shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hover_style{
+  background-color: #4f86f9;
+}
+
+.hover_card{
+  color: #fff;
+  background:#d6e1f8;
+  font-size: 30px;
+  padding:18px;
+  border-radius:50%;
+  font-weight: lighter;
+}
+
+.text_style{
+  color: white;
+}
+
+.card_style:hover{
+  color: #fff;
+  background:#d6e1f8;
+  font-size: 30px;
+  padding:18px;
+  border-radius:50%;
+  font-weight: lighter;
+}
+
+.hover_effect:hover{
+  color: white;
+  background-color: #4f86f9 !important;
+  
+}

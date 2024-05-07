@@ -131,7 +131,7 @@ const Service = () => {
         </div> */}
         <div className="row justify-content-center">
           {items.map((item, index) => (
-            <div key={index} className="col-md-3 text-center">
+            <div key={index} className="col-md-3 text-center" data-aos="fade-in" data-aos-duration="2000" data-aos-once="true">
               <div className="flow-wrap">
                 <FontAwesomeIcon
                   icon={faContactCard}

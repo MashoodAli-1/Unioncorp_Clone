@@ -4,10 +4,16 @@
     padding: 10px;
     border-radius: 15%;
     color: rgb(79, 134, 249);
+    font-size: 16px;
+    color: #4f86f9;
+    font-weight: bolder;
   }
 
 .text_small{
-    font-size: small;
+    /* font-size: small; */
+    font-size: 10px;
+    color: #4f86f9;
+    font-weight: lighter;
 }
 
 .blog_img_main{
@@ -15,4 +21,29 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    object-fit: cover;
 }
+
+.main_blog_text{
+    color: #8c8c8c;
+    font-size: 10px;
+    font-weight: 500;
+    font-weight: bolder;
+}
+
+/* Blog.css */
+/* .blog_img_main {
+    object-fit: cover;
+  }
+  
+  .text_small {
+    font-size: 10px;
+    color: #4f86f9;
+    font-weight: lighter;
+  }
+  
+  .icon_width-2 {
+    font-size: 16px;
+    color: #4f86f9;
+  }
+   */

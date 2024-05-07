@@ -7,7 +7,9 @@ import CaseStudy from '../Components/CaseStudy/CaseStudy'
 import Team from '../Components/Teams/Team'
 import Footer from '../Components/Footer/Footer'
 import Blog from '../Components/Blogs/Blog'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+AOS.init();
 const HomePage = () => {
   return (
     <div>

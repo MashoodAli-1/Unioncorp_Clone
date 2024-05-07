@@ -17,7 +17,7 @@ const Team = () => {
       <div className="row row-gap-5">
         {[...Array(8)].map((_, index) => (
           <div key={index} className="col-lg-3 col-md-6  align-items-center mb-4 top_width ">
-            <div className="bg-white">
+            <div className="bg-white team_shadow" data-aos="fade-in" data-aos-duration="2000" data-aos-once="true">
             <div className="d-flex  justify-content-center align-items-center position-relative ">
               <div className="bg-img-2 rounded-circle overflow-hidden position-absolute" >
                 <img
@@ -30,9 +30,9 @@ const Team = () => {
             <div className="text-center py-5 px-5 top-margin overflow-hidden">
               <h3>Jason Smith</h3>
               <p>President & CEO</p>
-              <div className="d-flex justify-content-between px-lg-3 px-md-4 px-sm-5 ">
+              <div className="d-flex gap-lg-2 gap-md-1 justify-content-center px-lg-3 px-md-4 px-sm-5 ">
                 {[...Array(4)].map((_, index) => (
-                  <FontAwesomeIcon key={index} icon={faTwitter} className="icon_width"/>
+                    <FontAwesomeIcon key={index} icon={faTwitter} className="icon_width"/>
                 ))}
               </div>
               <p>

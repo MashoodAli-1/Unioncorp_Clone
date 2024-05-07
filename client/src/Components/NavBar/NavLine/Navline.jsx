@@ -75,7 +75,7 @@ const Navline = () => {
     <>
       <div className="top-wrap">
         <Container>
-          <Row className="text-center justify-content-md-between align-items-center">
+          <Row className="justify-content-md-start align-items-lg-center">
             {" "}
             {/* Added align-items-center to vertically center contents */}
             <Col md={3} sm={12} lg={3}>
@@ -94,21 +94,21 @@ const Navline = () => {
               sm={12}
               lg={5}
               md={5}
-              className="d-flex justify-content-lg-end justify-content-center"
+              className="d-flex justify-content-lg-end justify-content-start"
             >
               <Row className="align-items-center">
                 {" "}
                 {/* Vertically center the icons */}
-                <Col className="brands-logo me-1 h-100 p-3 w-100">
+                <Col className="brands-logo me-1 ms-1 px-3 py-2 w-100">
                   <FontAwesomeIcon icon={faInstagram} />
                 </Col>
-                <Col className="brands-logo me-1 h-100 p-3 w-100">
+                <Col className="brands-logo me-1  px-3 py-2 w-100">
                   <FontAwesomeIcon icon={faFacebook} />
                 </Col>
-                <Col className="brands-logo me-1 h-100 p-3 w-100">
+                <Col className="brands-logo me-1  px-3 py-2 w-100">
                   <FontAwesomeIcon icon={faGoogle} />
                 </Col>
-                <Col className="brands-logo me-1 h-100 p-3 w-100">
+                <Col className="brands-logo me-1 px-3 py-2 w-100">
                   <FontAwesomeIcon icon={faTwitter} />
                 </Col>
               </Row>

@@ -54,7 +54,7 @@ function Hero() {
       <Slider {...settings} className="text-light bg-image">
         <div>
           <div className="container-lg d-flex align-items-center justify-content-center heigth-control">
-            <div className="text-center">
+            <div className="text-center ">
               <h3 className="display-4">
                 We're Always Here To Give Financial Help!
               </h3>

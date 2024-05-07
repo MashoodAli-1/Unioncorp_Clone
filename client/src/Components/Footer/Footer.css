@@ -71,8 +71,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     border-radius: 15%;
     z-index: 3;
 }
@@ -99,7 +99,39 @@
     padding-left: 6%;
 }
 
+.subhead{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 
+.main_heading{
+    font-weight: 600;
+}
+
+.service_text{
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+}
+
+.rec_blog_text{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: small;
+    font-weight: 500;
+    font-weight: bolder;
+}
+
+.blog_main_text{
+    color: #fff;
+    font-weight: 600;
+    font-weight: bolder;
+}
+
+
+.arrow_style{
+    color: #fff;
+    font-size: 10px;
+    font-weight: lighter;
+  }
 
 @media (min-width: 300px) and (max-width: 992px) {
     .extra_padding_f1 {

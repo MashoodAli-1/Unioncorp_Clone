@@ -16,8 +16,6 @@ const NavBar = () => {
         <div className="container-lg container-fluid">
           <Navbar.Brand
             href="#"
-            style={{ marginRight: "30%" }}
-            className="ms-lg-4 ms-md-0"
           >
             <img
               src={Logo}
